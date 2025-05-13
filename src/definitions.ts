@@ -1,3 +1,3 @@
 export interface FaceidPlugin {
-  echo(options: { value: string }): Promise<{ value: string }>;
+  authenticate(options: { value: string }): Promise<{ value: string }>;
 }
